@@ -1,11 +1,10 @@
 package dongcode.bai10b;
 
-class King extends Character{
-
+class King extends Character {
 
     @Override
     public void fight() {
-        System.out.print("\nKing fight!");
+        System.out.println("King fight!");
     }
 
 
@@ -21,7 +20,7 @@ class King extends Character{
 
     @Override
     public void in() {
-        System.out.print("\n\tLoai nhan vat: Vua");
-        System.out.print("\n\tVu khi hien tai: "+ w.weapon);
+        System.out.println("\tLoai nhan vat: Vua");
+        System.out.println("\tVu khi hien tai: " + w.weapon);
     }
 }

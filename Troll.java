@@ -4,7 +4,7 @@ class Troll extends Character {
 
     @Override
     public void fight() {
-        System.out.print("\nTroll fight!");
+        System.out.println("Troll fight!");
     }
 
     @Override
@@ -19,7 +19,7 @@ class Troll extends Character {
 
     @Override
     public void in() {
-        System.out.print("\n\tLoai nhan vat: Troller");
-        System.out.print("\n\tVu khi hien tai: "+ w.weapon);
+        System.out.println("\tLoai nhan vat: Troller");
+        System.out.println("\tVu khi hien tai: " + w.weapon);
     }
 }

@@ -4,7 +4,7 @@ class Knight extends Character {
 
     @Override
     public void fight() {
-        System.out.print("\nKnight fight!");
+        System.out.println("Knight fight!");
     }
 
     @Override
@@ -19,7 +19,7 @@ class Knight extends Character {
 
     @Override
     public void in() {
-        System.out.print("\n\tLoai nhan vat: Ki si");
-        System.out.print("\n\tVu khi hien tai: "+ w.weapon);
+        System.out.println("\tLoai nhan vat: Ki si");
+        System.out.println("\tVu khi hien tai: " + w.weapon);
     }
 }
